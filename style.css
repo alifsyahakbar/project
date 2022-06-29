@@ -1,0 +1,101 @@
+
+.container-fluid .row #gambar-me {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sosmed {
+    text-align: start;
+    margin: 30px;
+    padding: 10px;
+
+  }
+
+  .sosmed a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+  }
+
+  .sosmed a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  footer .footer .footer-bawah p{
+    color: white;
+  }
+
+  footer {
+    width: auto;
+    height: 180px;
+    background-color: #000000;
+  }
+
+  footer .footer {
+    padding: 40px;
+  }
+
+  footer .follow-me {
+    display: flex;
+  }
+
+  footer .footer .fs-4 {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+  }
+
+  footer .footer .fs-4 a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  footer .footer .fs-4 a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+
+
+/* minimal width */
+    @media (max-width:600px) {
+        footer .footer{
+            padding: 10px;
+          }
+
+          footer .footer .fs-4 {
+            color: rgb(255, 255, 255);
+          }
+
+          footer .follow-me .fs-4{
+            font-size: 10px;
+          }
+
+          footer .tambah {
+            height: 500px;
+            color: white;
+          }
+          
+    }
+
+
+
+
+  @media (min-width:757px)
+  {
+    .container-fluid .row #gambar-me {
+       margin-top: 100px;
+       text-align: center;
+      }
+
+      footer #tambah {
+        height: 500px;
+        color: white;
+      }
+     
+    
+  }
+
+  
+
